@@ -106,7 +106,6 @@ export class GuiModel {
                ]
               },
               {
-                              {
                 "id": "ActivityForm",
                "title": "Activity",
                "url": "/activity",
@@ -377,18 +376,19 @@ export class GuiModel {
                 {     
                 "id": "activitespage",     
                 "elementList": [         
-                { 
-                "type": "backbutton", 
-                },
-                {
-                "type": "newButton",
-                "name": "AddActivity",
-                "icon": "fa-weixin",
-                "color": "green", 
-                "form": { 
-                "form": "AddActivityForm"
-                }, 
-                {
+                  { 
+                    "type": "backbutton", 
+                  },
+                  {
+                    "type": "newButton",
+                    "name": "AddActivity",
+                    "icon": "fa-weixin",
+                    "color": "green", 
+                    "form": { 
+                      "form": "AddActivityForm"
+                     }
+                  }, 
+                  {
                 "type": "list",
                 "icon": "fa-weixin",
                 "color": "wisteria",
