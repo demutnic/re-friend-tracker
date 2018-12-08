@@ -244,16 +244,6 @@ export class GuiModel {
                              "page": "groupspage",
                         },
                         {     "type": "button",     "name": "Activities",     "icon": "fa-weixin",     "color": "wisteria",     "page": "activitespage", },
-                        {
-                            "type": "list",
-                            "icon": "fa-weixin",
-                            "color": "wisteria",
-                            "search": true,
-                            "url": "/group",
-                            "form": {
-                            "form": "GroupForm"
-                            }
-                        },
                     ]
                 },
                 {
