@@ -118,7 +118,7 @@ export class GuiModel {
                "width": 2,
                "required": true
                },
-               {     "id":   "location",     "type": "autocomplete",     "name": "Location",     "url": "/location",     "form": "ActivityForm",     "width": 2 }
+               {     "id":   "location",     "type": "autocomplete",     "name": "Location",     "url": "/location",     "form": "ActivityForm",     "width": 2 },
                {
                "type": "deleteButton",
                "name": "Delete"
@@ -374,7 +374,31 @@ export class GuiModel {
                         },
                     ]
                 },
-                {     "id": "activitespage",     "elementList": [         {             "type": "backbutton",         },         {             "type": "newButton",             "name": "AddActivity",             "icon": "fa-weixin",             "color": "green",             "form": {                 "form": "AddActivityForm"             }, {  "type": "list",  "icon": "fa-weixin",  "color": "wisteria",  "search": true,  "url": "/activity",  "form": {   "form": "ActivityForm"  } },                                       ] },
+                {     
+                "id": "activitespage",     
+                "elementList": [         
+                { 
+                "type": "backbutton", 
+                },
+                {
+                "type": "newButton",
+                "name": "AddActivity",
+                "icon": "fa-weixin",
+                "color": "green", 
+                "form": { 
+                "form": "AddActivityForm"
+                }, 
+                {
+                "type": "list",
+                "icon": "fa-weixin",
+                "color": "wisteria",
+                "search": true,
+                "url": "/activity",
+                "form": {
+                  "form": "ActivityForm"  
+                } 
+                }                                      
+                ] },
             ]
         }
     };
